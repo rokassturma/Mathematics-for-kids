@@ -1,0 +1,14 @@
+{
+  "name": "mathematics",
+  "version": "1.0.0",
+  "description": "Mathematical exercises",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass main.scss css/style.css -w"
+  },
+  "author": "Rokas",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}

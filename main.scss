@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/nitish-goswami-Ams91Wo635s-unsplash.jpg);
+  background-size: cover;
+  font-family: "Fredoka", sans-serif;
+}
+
+// UTILITIES
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.header {
+  padding: 5rem 4rem;
+  text-align: center;
+
+  &__heading {
+    font-size: 5rem;
+    color: rgb(236, 215, 94);
+    letter-spacing: 1.5rem;
+  }
+
+  &__description {
+    font-size: 2rem;
+    padding: 2rem;
+    color: rgb(164, 233, 75);
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+}
+
+.calculations {
+  &__block {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &__remaining-attempts {
+    position: absolute;
+    font-size: 4rem;
+    color: greenyellow;
+    right: 20%;
+    bottom: 5%;
+  }
+
+  &__heading {
+    font-size: 4rem;
+    color: rgb(164, 233, 75);
+    margin-bottom: 2.5rem;
+  }
+
+  &__generated {
+    font-size: 3rem;
+  }
+
+  &__answers {
+    display: flex;
+    gap: 10rem;
+    margin-left: -8rem;
+    justify-content: center;
+  }
+
+  &__input {
+    font-size: 2rem;
+    text-align: center;
+    max-width: 10rem;
+    border-radius: 3rem;
+    border: 1px solid green;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  &__points {
+    color: orange;
+  }
+
+  &__confirm {
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    box-shadow: 0 1.2rem 2rem rgba($color: #000000, $alpha: 0.4);
+    background-color: rgb(164, 233, 75);
+    transition: transform 0.3s;
+    text-transform: uppercase;
+    width: 16rem;
+    font-weight: 700;
+
+    &:hover {
+      transform: translateY(-0.3rem);
+      background-color: rgba(164, 233, 75);
+      box-shadow: 0 1.6rem 2.5rem rgba($color: #000000, $alpha: 0.4);
+    }
+  }
+
+  &__start-again {
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    border-radius: 5rem;
+    box-shadow: 0 1.2rem 2rem rgba($color: #000000, $alpha: 0.4);
+    width: 16rem;
+    font-weight: 700;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-0.3rem);
+      box-shadow: 0 1.6rem 2.5rem rgba($color: #000000, $alpha: 0.4);
+    }
+  }
+}

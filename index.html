@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Be one of a kind MATHEMATIC! 👨‍🔬</title>
+  </head>
+  <body>
+    <section class="header">
+      <h1 class="header__heading">
+        Sveikas atvykęs į matematikos užduočių sūkurį!
+      </h1>
+      <p class="header__description">
+        Čia bus pateikiamos užduotys, susijusios su matematika (sudėtis ir
+        atimtis). Už kiekvieną teisingą atsakymą gausi taškų, už neteisingą -
+        mažės bandymų skaičius. Iš viso turėsi - 5 bandymus. Spręsk atsakingai!
+      </p>
+    </section>
+
+    <section class="calculations">
+      <div class="calculations__block">
+        <output class="calculations__remaining-attempts remaining"
+          >Likę bandymai: <span class="calculations__attempts">5</span></output
+        >
+        <h2 class="calculations__heading">Veiksmas, kurį turi atlikti:</h2>
+        <output class="calculations__generated firstNumber">1</output>
+        <output class="calculations__generated action">+</output>
+        <output class="calculations__generated secondNumber">2</output>
+        <output class="calculations__generated u-margin-bottom-small">=</output>
+        <div
+          class="calculations__generated calculations__answers u-margin-bottom-medium"
+        >
+          <h3 class="calculations__answer">Tavo atsakymas:</h3>
+          <input type="number" class="calculations__input input" />
+          <output class="calculations__points"
+            >Tavo taškai:
+            <span class="calculations__points points">0</span></output
+          >
+        </div>
+        <button class="calculations__confirm confirm u-margin-bottom-small">
+          Patvirtinti
+        </button>
+        <button class="calculations__start-again again" role="button">
+          Iš naujo
+        </button>
+      </div>
+    </section>
+  </body>
+</html>

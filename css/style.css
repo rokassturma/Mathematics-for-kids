@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/nitish-goswami-Ams91Wo635s-unsplash.jpg);
+  background-size: cover;
+  font-family: "Fredoka", sans-serif;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.header {
+  padding: 5rem 4rem;
+  text-align: center;
+}
+.header__heading {
+  font-size: 5rem;
+  color: rgb(236, 215, 94);
+  letter-spacing: 1.5rem;
+}
+.header__description {
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgb(164, 233, 75);
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.calculations__block {
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.calculations__remaining-attempts {
+  position: absolute;
+  font-size: 4rem;
+  color: greenyellow;
+  right: 20%;
+  bottom: 5%;
+}
+.calculations__heading {
+  font-size: 4rem;
+  color: rgb(164, 233, 75);
+  margin-bottom: 2.5rem;
+}
+.calculations__generated {
+  font-size: 3rem;
+}
+.calculations__answers {
+  display: flex;
+  gap: 10rem;
+  margin-left: -8rem;
+  justify-content: center;
+}
+.calculations__input {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 10rem;
+  border-radius: 3rem;
+  border: 1px solid green;
+}
+.calculations__input::-webkit-outer-spin-button, .calculations__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.calculations__points {
+  color: orange;
+}
+.calculations__confirm {
+  padding: 1.5rem 3rem;
+  border-radius: 5rem;
+  box-shadow: 0 1.2rem 2rem rgba(0, 0, 0, 0.4);
+  background-color: rgb(164, 233, 75);
+  transition: transform 0.3s;
+  text-transform: uppercase;
+  width: 16rem;
+  font-weight: 700;
+}
+.calculations__confirm:hover {
+  transform: translateY(-0.3rem);
+  background-color: rgb(164, 233, 75);
+  box-shadow: 0 1.6rem 2.5rem rgba(0, 0, 0, 0.4);
+}
+.calculations__start-again {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  border-radius: 5rem;
+  box-shadow: 0 1.2rem 2rem rgba(0, 0, 0, 0.4);
+  width: 16rem;
+  font-weight: 700;
+  transition: transform 0.3s;
+}
+.calculations__start-again:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1.6rem 2.5rem rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=style.css.map */
