@@ -1,1 +1,1 @@
-![Uploading image.png…]()
+![Mathematics for Kids Screenshot](./assets/mathematics.png)
